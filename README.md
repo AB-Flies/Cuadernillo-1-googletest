@@ -2,7 +2,7 @@
 - [Instalación](#Instalación)
 - [Uso](#Uso)
 - [Tests](#Tests)
-    -[Ejemplo `tcalendarioTest.cpp`](#Ejemplo-tcalendarioTest.cpp)
+    - [Ejemplo `tcalendarioTest.cpp`](#Ejemplo-tcalendarioTest.cpp)
 - [`main.cpp` y `universidad_makefile`](#maincpp-y-universidad_makefile)
 - [Carpeta .vscode](#Carpeta-vscode)
     - [Posibles problemas](#Posibles-problemas)
