@@ -1,13 +1,11 @@
 # Índice
-[Instalación](#Instalación)
-
-[Uso](#Uso)
-
-[Tests](#Tests)
-
-[`main.cpp` y `universidad_makefile`](#maincpp-y-universidad_makefile)
-
-[Carpeta .vscode](#Carpeta-vscode)
+- [Instalación](#Instalación)
+- [Uso](#Uso)
+- [Tests](#Tests)
+    -[Ejemplo `tcalendarioTest.cpp`](#Ejemplo-tcalendarioTest.cpp)
+- [`main.cpp` y `universidad_makefile`](#maincpp-y-universidad_makefile)
+- [Carpeta .vscode](#Carpeta-vscode)
+    - [Posibles problemas](#Posibles-problemas)
 
 # Instalación 
 Ejecuta `git clone https://github.com/AB-Flies/Cuadernillo-1-googletest` y se creará una carpeta con el proyecto
