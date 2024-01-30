@@ -1,6 +1,12 @@
 # Índice
 [Instalación](#Instalación)
 
+[Uso](#Uso)
+
+[Tests](#Tests)
+
+[`main.cpp` y `universidad_makefile`](#maincpp-y-universidad_makefile)
+
 [Carpeta .vscode](#Carpeta-vscode)
 
 # Instalación 
