@@ -1,7 +1,7 @@
 # Índice
 [Instalación](#Instalación)
 
-[Carpeta .vscode](#Carpeta-.vscode)
+[Carpeta .vscode](#Carpeta-vscode)
 
 # Instalación 
 Ejecuta `git clone https://github.com/AB-Flies/Cuadernillo-1-googletest` y se creará una carpeta con el proyecto
