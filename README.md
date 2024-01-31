@@ -56,8 +56,7 @@ TEST(constructors, defaultConstructor) {
 TEST(constructors, overloadedConstructor) {
   TCalendario calen(9, 2, 1984, "Nació Kiko Rivera");
 
-  // Si calen.mensaje es nulo, la siguiente línea generará error por tratar de evaluar
-  // Usamos ASSERT para que si falla, no se continúe evaluando el test para evitar dicho error
+  // Si calen.mensaje es nulo, calen.mensaje[0] generará error
   ASSERT_NE(calen.mensaje, nullptr);
   EXPECT_EQ(calen.mensaje[0], 'N');
   EXPECT_EQ(calen.mensaje, "Nació Kiko Rivera");
