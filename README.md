@@ -44,6 +44,19 @@ Para más información sobre como escribir los tests visitar la [documentación 
 ```
 // Para testear las clases, los atributos se han puesto como públicos temporalmente
 
+TEST(constructors, overloadedConstructor) {
+  TCalendario calen(9, 2, 1984, "Nació Kiko Rivera");
+
+  // Si calen.mensaje es nulo y calen.mensaje[0] genera un error, se cortará la ejecución de los
+  // tests de manera abrupta. Evitamos que ocurra con ASSERT
+  ASSERT_NE(calen.mensaje, nullptr);
+  EXPECT_EQ(calen.mensaje[0], 'N');
+  EXPECT_EQ(calen.mensaje, "Nació Kiko Rivera");
+  EXPECT_EQ(calen.dia, 9);
+  EXPECT_EQ(calen.mes, 2);
+  EXPECT_EQ(calen.anyo, 1984);
+}
+
 TEST(constructors, defaultConstructor) {
   TCalendario calen;
 
@@ -51,18 +64,6 @@ TEST(constructors, defaultConstructor) {
   EXPECT_EQ(calen.dia, 1);
   EXPECT_EQ(calen.mes, 1);
   EXPECT_EQ(calen.anyo, 1900);
-}
-
-TEST(constructors, overloadedConstructor) {
-  TCalendario calen(9, 2, 1984, "Nació Kiko Rivera");
-
-  // Si calen.mensaje es nulo, calen.mensaje[0] generará error
-  ASSERT_NE(calen.mensaje, nullptr);
-  EXPECT_EQ(calen.mensaje[0], 'N');
-  EXPECT_EQ(calen.mensaje, "Nació Kiko Rivera");
-  EXPECT_EQ(calen.dia, 9);
-  EXPECT_EQ(calen.mes, 2);
-  EXPECT_EQ(calen.anyo, 1984);
 }
 ```
 
